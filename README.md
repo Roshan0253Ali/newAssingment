@@ -1,12 +1,68 @@
-# React + Vite
+# 📖 Description
+A sleek and intuitive task tracking web application built using React. 
+This app allows users to create, manage, and filter tasks with features like due dates, priorities, search, dark mode, and persistent local storage—all in a beautiful, responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+- 🔐 Login with username
+- 🌗 Dark & Light mode toggle
+- ✅ Add, edit, delete, and complete tasks
+- 📆 Due date & priority options
+- 🔍 Task search functionality
+- 📂 Task filtering (All / Pending / Completed)
+- 💾 Data persistence via `localStorage`
+- ✨ Clean, responsive UI using Tailwind CSS
+- 🎯 Interactive task progress with visual cues
 
-Currently, two official plugins are available:
+## 🛠 Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository**
 
-## Expanding the ESLint configuration
+   git clone https://github.com/your-username/personal-task-tracker.git
+   cd personal-task-tracker
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+npm install
+
+3. Run the development server
+npm run dev
+
+4. Open in browser
+Visit http://localhost:5173
+
+
+ ****Technologies Used
+⚛️ React.js
+
+💨 Tailwind CSS
+
+🧠 Lucide React Icons
+
+🧠 JavaScript (ES6+)
+
+🗃 Local Storage for persistent state
+
+⚙️ Vite for fast builds and hot reload
+
+
+Folder Structure Overview
+bash
+Copy
+Edit
+personal-task-tracker/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── utils/            # Utility functions
+│   ├── App.jsx           # Main app component
+│   ├── main.jsx          # App entry point
+│   └── index.css         # Tailwind CSS
+├── index.html            # Root HTML
+├── tailwind.config.js    # Tailwind configuration
+├── vite.config.js        # Vite configuration
+└── README.md             # Project documentation
+
+
+ 🔗 Live Demo
+ https://newassingment.onrender.com
+
+
+ Screeenshort
